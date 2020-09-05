@@ -1,0 +1,45 @@
+html {
+   padding: 0 20%;
+   background-color: #CDE;
+}
+
+section {
+   margin: 2em 0;
+   padding: 5px 0;
+}
+
+section > div:first-child {
+   display: inline-block;
+   width: 25%;
+   padding-right: 1em;
+   vertical-align: top;
+   text-align: right;
+}
+
+.map {
+   display: inline-block;
+   width: 70%;
+   padding: 25px;
+   box-sizing: border-box;
+   box-shadow: 0 0 0 1px white, 0 0 0 4px #CDE, 0 0 0 5px white;
+}
+
+h1 {
+   font-size: 2rem;
+}
+
+h2 {
+   font-size: 1.66rem;
+}
+
+h3 {
+   font-size: 1.33rem;
+}
+
+h1, h2, h3 {
+   margin-top: 0;
+   color: #333;
+   font-family: "Philosopher", serif;
+   font-weight: 700;
+   text-shadow: -1px 1px #CDE, -2px 2px #CCC;
+}
